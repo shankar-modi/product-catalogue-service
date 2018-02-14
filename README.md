@@ -8,19 +8,19 @@ $ mvn spring-boot:run
 
 - HTTP Method GET
 
- http://localhost:8888/product 
+- http://localhost:8888/product 
 
 #### Get all Product By Type
 
-HTTP Method GET
+- HTTP Method GET
 
-http://localhost:8888/product/{productType}
+- http://localhost:8888/product/{productType}
 
 #### Save Product
 
-HTTP Method POST
+- HTTP Method POST
 
-http://localhost:8888/product 
+- http://localhost:8888/product 
 
 Body : { 
                "productName": "new Product",
@@ -30,8 +30,8 @@ Body : {
     
 #### Remove Product 
 
-HTTP Method DELETE
+- HTTP Method DELETE
 
-http://localhost:8888/product/{id}
+- http://localhost:8888/product/{id}
         
   
