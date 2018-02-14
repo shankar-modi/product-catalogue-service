@@ -22,12 +22,15 @@ $ mvn spring-boot:run
 
 - http://localhost:8888/product 
 
-Body : { 
-               "productName": "new Product",
-               "productType": "Mobile",
-               "price": 50000
-           }
-    
+- Body 
+```
+{ 
+    "productName": "new Product",
+    "productType": "Mobile",
+    "price": 50000
+}
+``` 
+   
 #### Remove Product 
 
 - HTTP Method DELETE
