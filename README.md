@@ -13,6 +13,7 @@ $ mvn spring-boot:run
 #### Get all Product By Type
 
 HTTP Method GET
+
 http://localhost:8888/product/{productType}
 
 #### Save Product
@@ -30,6 +31,7 @@ Body : {
 #### Remove Product 
 
 HTTP Method DELETE
+
 http://localhost:8888/product/{id}
         
   
