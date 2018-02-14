@@ -1,20 +1,21 @@
 # product-catalogue-service
 
-**To Run the Project
+### Run Project
 
-mvn spring-boot:run
+$ mvn spring-boot:run
 
-Get all Products
+#### Get all Products
 
-HTTP Method GET
-http://localhost:8888/product 
+- HTTP Method GET
 
-Get all Product By Type
+ http://localhost:8888/product 
+
+#### Get all Product By Type
 
 HTTP Method GET
 http://localhost:8888/product/{productType}
 
-Save Product
+#### Save Product
 
 HTTP Method POST
 
@@ -26,7 +27,7 @@ Body : {
                "price": 50000
            }
     
-Remove Product 
+#### Remove Product 
 
 HTTP Method DELETE
 http://localhost:8888/product/{id}
