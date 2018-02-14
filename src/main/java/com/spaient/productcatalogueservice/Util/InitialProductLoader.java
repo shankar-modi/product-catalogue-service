@@ -9,6 +9,8 @@ import org.springframework.stereotype.Component;
 /**
  * @author shankarmodi
  * 14/02/18
+ *
+ * This class Initially loads five record in DB
  */
 
 @Component
